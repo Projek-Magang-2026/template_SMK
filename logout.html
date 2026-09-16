@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sesi Selesai - Koneksi Pelajar Hotspot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app-container">
+    <!-- Status bar / Header -->
+    <header class="app-header">
+        <div class="header-title-wrapper">
+            <svg class="wifi-pulse-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                <path fill-rule="evenodd" d="M1.371 8.143a.75.75 0 0 1 1.022-.24 15.618 15.618 0 0 1 19.214 0 .75.75 0 1 1-.782 1.28 14.118 14.118 0 0 0-17.65 0 .75.75 0 0 1-1.804-1.04ZM4.143 11.23a.75.75 0 0 1 1.002-.276 11.118 11.118 0 0 1 13.71 0 .75.75 0 1 1-.84 1.246 9.618 9.618 0 0 0-11.87 0 .75.75 0 0 1-1.002-.97ZM6.963 14.28a.75.75 0 0 1 .978-.328 6.618 6.618 0 0 1 8.118 0 .75.75 0 1 1-.896 1.206 5.118 5.118 0 0 0-6.222 0 .75.75 0 0 1-.978-.878ZM9.75 17.25a.75.75 0 0 1 1.097-.66 2.13 2.13 0 0 1 2.306 0 .75.75 0 1 1-.818 1.258.63.63 0 0 0-.67 0 .75.75 0 0 1-.915-.598Z" clip-rule="evenodd" />
+            </svg>
+            <span>KONEKSI PELAJAR</span>
+        </div>
+        <span class="header-status" style="background: rgba(239, 68, 68, 0.15); color: #f87171; border-color: rgba(248, 113, 113, 0.3);">OFFLINE</span>
+    </header>
+
+    <!-- Carousel Banner -->
+    <div class="carousel-container">
+        <!-- Slide 1 -->
+        <div class="carousel-slide active">
+            <img src="smk-bg.png" alt="Student Workspace" class="carousel-image">
+            <div class="carousel-content">
+                <span class="carousel-badge">⚡ AREA SEKITAR SEKOLAH</span>
+                <h3 class="carousel-title">SEKOLAH SELESAI, INTERNETAN LANJUT.</h3>
+                <p class="carousel-desc">WiFi super cepat buat nugas, scroll, & streaming</p>
+            </div>
+        </div>
+        <!-- Slide 2 -->
+        <div class="carousel-slide">
+            <img src="smk-bg-2.png" alt="Nugas & Coding" class="carousel-image">
+            <div class="carousel-content">
+                <span class="carousel-badge">📚 SMART & PRODUCTIVE</span>
+                <h3 class="carousel-title">BELAJAR & NUGAS BARENG</h3>
+                <p class="carousel-desc">Koneksi stabil & lancar di sekitar sekolah</p>
+            </div>
+        </div>
+        <!-- Slide 3 -->
+        <div class="carousel-slide">
+            <img src="smk-bg-3.png" alt="Mabar & Browsing" class="carousel-image">
+            <div class="carousel-content">
+                <span class="carousel-badge">🎮 HIGH SPEED HOTSPOT</span>
+                <h3 class="carousel-title">MABAR & BROWSING SEPUASNYA</h3>
+                <p class="carousel-desc">Paket hemat ramah kantong pelajar SMK</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Running Text Ticker -->
+    <div class="marquee-container">
+        <div class="marquee-text">Sampai jumpa lagi! Silakan login kembali untuk menikmati layanan internet Koneksi Pelajar.</div>
+    </div>
+
+    <!-- Main Card -->
+    <main class="main-card">
+        <!-- Welcoming Text -->
+        <div class="portal-welcome">
+            <h2 class="portal-title">Sesi <span>Selesai</span></h2>
+            <p class="portal-subtitle">Terima kasih telah menggunakan WiFi Koneksi Pelajar</p>
+        </div>
+
+        <!-- Receipt Table -->
+        <div class="receipt-table" style="margin-bottom: 24px;">
+            <div class="receipt-row">
+                <span class="receipt-label">User Terputus</span>
+                <span class="receipt-value">$(username)</span>
+            </div>
+            <div class="receipt-row">
+                <span class="receipt-label">Total Uptime</span>
+                <span class="receipt-value highlight">$(uptime)</span>
+            </div>
+        </div>
+
+        <!-- Return button -->
+        <a href="$(link-login)" class="btn-primary" style="text-decoration: none;">
+            Masuk Kembali
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15M12 9l-3 3m0 0 3 3m-3-3h12.75" />
+            </svg>
+        </a>
+
+        <!-- Footer brand logo -->
+        <footer class="brand-footer" style="margin-top: auto;">
+            &copy; 2026 Koneksi Pelajar Hotspot. All Rights Reserved.
+        </footer>
+    </main>
+</div>
+
+</body>
+</html>
